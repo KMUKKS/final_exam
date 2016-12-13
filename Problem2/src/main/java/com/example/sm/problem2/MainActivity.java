@@ -16,9 +16,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         // need something here
 
-        adapter = new MyBaseAdapter(this, emp_list);
+        //adapter = new MyBaseAdapter(this, emp_list);
         listview = (ListView) findViewById(R.id.listView1) ;
         listview.setAdapter(adapter);
         listview.setOnItemClickListener((AdapterView.OnItemClickListener)adapter);
